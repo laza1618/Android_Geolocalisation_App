@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MapsapitestActivity!</string>
+    <string name="app_name">Geo Apps</string>
+    <string name="label_streetview">Street View</string>
+    <string name="label_trafficview">Traffic View</string>
+    <string name="label_satelliteview">Satellite View</string>
+    <string name="apiKey">0Uua9lWBI_n-yyr-5IVuk7kkPb0ZZc-zKf4JgpQ</string>
+    <string name="preference_rayons">preference_rayons</string>
+	<string name="preference_disque">preference_disque</string>
+	<string name="ok">VALIDER</string>
+	<string name="ko">Annuler</string>
+</resources>

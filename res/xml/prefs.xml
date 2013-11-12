@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:entryValues="@array/liste_valeur_rayon_prefs" 
+        android:key="@string/preference_rayons" 
+        android:entries="@array/liste_rayon_prefs" 
+        android:defaultValue="0.5"
+        android:title="Rayon de précision" 
+        android:dialogTitle="Preference Rayon" 
+        android:summary="Selectionnez un rayon pour afficher les Point d'Interets Disponibles"
+        android:id="@+id/prefs_rayon"/>
+    <CheckBoxPreference android:title="Disque de précision" 
+        android:summaryOff="Desactivé" 
+        android:summaryOn="Activé" 
+        android:key="@string/preference_disque"
+        android:defaultValue="false"/>
+    <Preference android:selectable="true" android:enabled="true" android:summary="Selectionnez les types d'infrastructures que vous voulez afficher" android:key="test" android:title="Type d'Infrastructure"/>
+</PreferenceScreen>

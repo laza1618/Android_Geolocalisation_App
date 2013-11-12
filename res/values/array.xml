@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="liste_rayon_prefs">
+        <item >100 mètre</item>
+        <item >250 mètre</item>
+        <item >500 mètre</item>
+        <item >1 kilomètre</item>
+    </string-array>
+    <string-array name="liste_valeur_rayon_prefs">
+        <item >0.1</item>
+        <item >0.25</item>
+        <item >0.5</item>
+        <item >1</item>
+    </string-array>    
+</resources>
